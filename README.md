@@ -15,7 +15,17 @@ End-to-end analytics case study for a real estate marketplace app (2024): data c
 | `sql/lead_sales_analysis.sql` | PostgreSQL queries: conversion rates, top sources/locations, agent ranking with window functions |
 | `data/leads_sample.csv` | 500-row sample of the cleaned leads table (full dataset not published) |
 | `slides/real_estate_data_analysis_case.pptx` | Presentation of findings |
-| Dashboard | _link to be added_ |
+| Dashboard | [Looker Studio report](https://datastudio.google.com/reporting/43368c37-3ca3-4a43-887b-22ee71a827c6) (screenshots below) |
+
+## Dashboard
+
+**Leads analysis**: lead volume over time, top locations, lead types, sources and contact methods.
+
+![Leads analysis dashboard](dashboard/leads_analysis.png)
+
+**Sales analysis**: sales and value over time, unit locations, property types, agent performance and conversion rate.
+
+![Sales analysis dashboard](dashboard/sales_analysis.png)
 
 ## Tools
 Python (pandas, NumPy, Matplotlib, Seaborn), PostgreSQL, Looker Studio, Canva.
