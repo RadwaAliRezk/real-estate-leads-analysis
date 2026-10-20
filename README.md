@@ -14,7 +14,8 @@ End-to-end analytics case study for a real estate marketplace app (2024): data c
 | `notebooks/real_estate_leads_cleaning.ipynb` | Python (pandas) cleaning: de-duplication, type casting, null handling, joins with lookup tables |
 | `sql/lead_sales_analysis.sql` | PostgreSQL queries: conversion rates, top sources/locations, agent ranking with window functions |
 | `data/leads_sample.csv` | 500-row sample of the cleaned leads table (full dataset not published) |
-| Dashboard / slides | _links to be added_ |
+| `slides/real_estate_data_analysis_case.pptx` | Presentation of findings |
+| Dashboard | _link to be added_ |
 
 ## Tools
 Python (pandas, NumPy, Matplotlib, Seaborn), PostgreSQL, Looker Studio, Canva.
