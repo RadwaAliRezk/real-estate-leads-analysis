@@ -1,0 +1,23 @@
+# Real Estate Leads & Sales Analysis
+
+End-to-end analytics case study for a real estate marketplace app (2024): data cleaning in Python, exploratory SQL, a Looker Studio dashboard and a slide deck of findings.
+
+## Business questions
+- How are leads distributed across lead types, sources and locations?
+- What is the lead-to-sale conversion rate, and how does it vary by lead type?
+- Which property types, locations and sales agents drive the most sales value?
+- How far do expected deal values differ from actual ones?
+
+## Contents
+| Path | What it is |
+|---|---|
+| `notebooks/real_estate_leads_cleaning.ipynb` | Python (pandas) cleaning: de-duplication, type casting, null handling, joins with lookup tables |
+| `sql/lead_sales_analysis.sql` | PostgreSQL queries: conversion rates, top sources/locations, agent ranking with window functions |
+| `data/leads_sample.csv` | 500-row sample of the cleaned leads table (full dataset not published) |
+| Dashboard / slides | _links to be added_ |
+
+## Tools
+Python (pandas, NumPy, Matplotlib, Seaborn), PostgreSQL, Looker Studio, Canva.
+
+## Note
+The original data belongs to the company that issued the case study and is not included. Company names have been removed from this repository.
